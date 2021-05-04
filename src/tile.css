@@ -1,0 +1,152 @@
+.tile {
+  width: 18vw;
+  height: max-content;
+  min-width: 300px;
+  min-height: 400px;
+  margin: 100px 0 0 50px;
+  overflow: hidden;
+  border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -ms-border-radius: 40px 40px 40px 40px;
+  -o-border-radius: 40px 40px 40px 40px;
+  color: white;
+  background: url("https://www.sustainableplaces.eu/wp-content/uploads/2017/02/SmartBuilding.jpg");
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+.location {
+  margin-top: 20px;
+}
+.live-img {
+  width: 50px;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  backdrop-filter: blur(1spx);
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 20px 20px;
+}
+.location-name {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  background-color: rgba(182, 49, 171, 0.521);
+  width: 100%;
+  height: max-content;
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 4%;
+  box-sizing: border-box;
+}
+
+.heading-text {
+  width: 60%;
+  font-size: 1.4em;
+  padding: 0;
+}
+.heading-text > p {
+  padding: 0;
+  margin: 0;
+}
+.links {
+  width: 30%;
+  font-size: 0em;
+  margin-top: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.date-detail-box {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 4%;
+  box-sizing: border-box;
+}
+.date-detail-box > h1 {
+  font-size: 1.1em;
+}
+.right {
+  text-align: right;
+}
+
+.button {
+  background-color: blueviolet;
+  width: 90px;
+  margin-left: auto;
+  height: 80px;
+  position: relative;
+  border-radius: 50px 0 0 0;
+  -webkit-border-radius: 50px 0 0 0;
+  -moz-border-radius: 50px 0 0 0;
+  -ms-border-radius: 50px 0 0 0;
+  -o-border-radius: 50px 0 0 0;
+  display: inline-flex;
+  align-items: center;
+  font-size: 35px;
+  justify-content: center;
+}
+
+.slider {
+  display: inline-block;
+  padding: 3% 4% 0 4%;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.slider > h1 {
+  font-size: 1em;
+}
+
+.slider-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+@media (max-width: 1590px) {
+  .date-detail-box {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 1278px) {
+  .tile {
+    width: 80vw;
+    height: max-content;
+
+    margin: 100px 50px 0 50px;
+  }
+}
